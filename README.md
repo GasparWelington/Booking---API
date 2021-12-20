@@ -6,7 +6,6 @@
 
  Este projeto foi realizado como proposta ao desafio do Agilizei Bootcamp.
  
- ​Desafio
 Chegou a hora de consolidar os conhecimentos obtidos durante este nível ⚡️
 Neste desafio, você deverá implementar: Mais testes para a nossa api de treinamento
 
@@ -27,7 +26,7 @@ https://gasparwelington.github.io/Booking---API/
  🏁 Como Executar o Projeto
  
 * Clone este repositório:
- $ git clone  https://gasparwelington.github.io/Booking---API/.git
+  git clone  https://gasparwelington.github.io/Booking---API/.git
  
  🏁 A execução pode ser feita através da linha de comando ou do próprio framework.
   * npx cypress open  (Para abrir o Cypress Application)
