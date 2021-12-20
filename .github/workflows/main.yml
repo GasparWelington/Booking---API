@@ -43,6 +43,3 @@ jobs:
         GITHUB-TOKEN: ${{ secrets.GITHUB_TOKEN}}
         BRANCH: gh-pages
         FOLDER: mochawesome-report
-© 2021 GitHub, Inc.
-Terms
-P
