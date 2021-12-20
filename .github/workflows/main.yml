@@ -1,0 +1,48 @@
+name: Testes
+# Gatilhos / Programados ou Acionados sempre que ocorrer algum evento
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+
+#  Qual máquina que o teste vai ser executado
+
+    runs-on: ubuntu-latest
+  # Passos
+    steps:
+    - uses: actions/checkout@v2
+    
+    
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v2
+      with:
+        node-version: 14.x
+        
+    
+    - run: npm install
+    - run: npm run cy:run
+      continue-on-error: true
+       # upload dos vídeos gerados
+    - name: Upload videos
+      uses: actions/upload-artifact@v2.2.3
+      if: always()
+      with:
+        name: videos
+        path: cypress/videos
+    - run: npm run report:merge
+    
+    - run: npm run report:mocha
+    
+    # Github Pages - publicar relatório
+    - name: Deploy to GitHub Pages
+
+      uses: JamesIves/github-pages-deploy-action@4.1.5
+      with: 
+        GITHUB-TOKEN: ${{ secrets.GITHUB_TOKEN}}
+        BRANCH: gh-pages
+        FOLDER: mochawesome-report
+© 2021 GitHub, Inc.
+Terms
+P
