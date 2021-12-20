@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-12-20T17:08:16.023Z",
-    "end": "2021-12-20T17:08:16.155Z",
-    "duration": 132,
+    "start": "2021-12-20T17:29:28.660Z",
+    "end": "2021-12-20T17:29:28.803Z",
+    "duration": 143,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "82d7bf45-226f-4f09-92e5-b0b58ada02b7",
+      "uuid": "7becfe04-a5e4-4767-a4fa-961e523559b9",
       "title": "",
       "fullFile": "cypress/integration/ping.spec.js",
       "file": "cypress/integration/ping.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "4aa8f468-7c3c-4303-8477-3b8ca6ceb53d",
+          "uuid": "31966a32-6c47-4901-879a-f12a74559e65",
           "title": "Ping",
           "fullFile": "",
           "file": "",
@@ -36,7 +36,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "80f6b3d2-59af-4c31-a7ba-8056703a9bcf",
+              "uuid": "4649e644-2e75-4a38-8f84-811bc628cca9",
               "title": "ping",
               "fullFile": "",
               "file": "",
@@ -56,15 +56,15 @@
                   "context": null,
                   "code": "_requests.default.getPing().its('status').should('eq', 201);",
                   "err": {},
-                  "uuid": "86048f24-7ba1-4321-944d-fd1e11b6c3a7",
-                  "parentUUID": "80f6b3d2-59af-4c31-a7ba-8056703a9bcf",
+                  "uuid": "7e61aa0f-70a3-4513-8577-b9145a192202",
+                  "parentUUID": "4649e644-2e75-4a38-8f84-811bc628cca9",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "86048f24-7ba1-4321-944d-fd1e11b6c3a7"
+                "7e61aa0f-70a3-4513-8577-b9145a192202"
               ],
               "failures": [],
               "pending": [],
