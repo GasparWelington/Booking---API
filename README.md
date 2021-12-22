@@ -27,6 +27,7 @@ https://gasparwelington.github.io/Booking---API/
  
 * Clone este repositório:
   git clone  https://gasparwelington.github.io/Booking---API/.git
+ * Instalar as dependências configuradas do package.json, usando o comando: npm install
  
  🏁 A execução pode ser feita através da linha de comando ou do próprio framework.
   * npx cypress open  (Para abrir o Cypress Application)
