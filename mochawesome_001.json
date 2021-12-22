@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-12-20T20:07:25.214Z",
-    "end": "2021-12-20T20:07:25.336Z",
-    "duration": 122,
+    "start": "2021-12-22T14:19:36.641Z",
+    "end": "2021-12-22T14:19:36.779Z",
+    "duration": 138,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "bb81de9b-8db2-4403-b64d-3c0e5563f7b6",
+      "uuid": "a2dfa5d3-2171-408a-980a-d19384ed7426",
       "title": "",
       "fullFile": "cypress/integration/ping.spec.js",
       "file": "cypress/integration/ping.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "8f1c85b4-03ae-4fe5-a202-6fe8c05c18fb",
+          "uuid": "9b7e5743-94bb-4ebd-9baf-62741d88517f",
           "title": "Ping",
           "fullFile": "",
           "file": "",
@@ -36,7 +36,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "e60e7917-594c-4389-abd6-d77b61881d59",
+              "uuid": "65bc8a80-bab2-4aa7-a0a4-a2cc47c9cbcb",
               "title": "ping",
               "fullFile": "",
               "file": "",
@@ -47,7 +47,7 @@
                   "title": "Get teste de API",
                   "fullTitle": "Ping ping Get teste de API",
                   "timedOut": null,
-                  "duration": 91,
+                  "duration": 114,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
@@ -56,20 +56,20 @@
                   "context": null,
                   "code": "_requests.default.getPing().its('status').should('eq', 201);",
                   "err": {},
-                  "uuid": "ef996f15-9ed9-4a9d-8f69-7fda585fb8a2",
-                  "parentUUID": "e60e7917-594c-4389-abd6-d77b61881d59",
+                  "uuid": "901ffcc9-3ba5-4c45-aa18-f850252b46d0",
+                  "parentUUID": "65bc8a80-bab2-4aa7-a0a4-a2cc47c9cbcb",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "ef996f15-9ed9-4a9d-8f69-7fda585fb8a2"
+                "901ffcc9-3ba5-4c45-aa18-f850252b46d0"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 91,
+              "duration": 114,
               "root": false,
               "rootEmpty": false,
               "_timeout": 2000
